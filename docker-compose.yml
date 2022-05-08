@@ -12,7 +12,7 @@ services:
       - ./db/:/docker-entrypoint-initdb.d/
     environment:
         POSTGRES_DB: "forum"
-        POSTGRES_USER: "ilyagu"
+        POSTGRES_USER: "mikhail"
         POSTGRES_PASSWORD: "password"
     ports:
       - "5432:5432"
